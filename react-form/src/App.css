@@ -1,0 +1,95 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.background {
+  background-image: url('./../public/img.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 700px;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  overflow: hidden;
+}
+
+.gradient--6 {
+  --gradient-start: #A16BFE;
+  --gradient-end: #DEB0DF;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  color: #fff;
+  padding: 20px; 
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%; 
+  max-width: 700px; 
+  box-sizing: border-box; 
+}
+
+h2 {
+  color: #ffffff; 
+  font-weight: bold;
+}
+
+.form-label {
+  color: #ffffff; 
+}
+
+input, select, textarea {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--gradient-start);
+  box-shadow: 0 0 5px var(--gradient-start);
+}
+
+button {
+  background-color: var(--gradient-start);
+  border: none;
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, var(--gradient-end), var(--gradient-start));
+  transform: translateY(-2px);
+}
+
+.alert-success {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-color: var(--gradient-start);
+}
+
+.alert-success {
+  --gradient-start: #A16BFE;
+  --gradient-end: #DEB0DF;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end)); 
+  color: #ffffff; 
+  border: 4px solid #ffffff; 
+  border-radius: 5px; 
+  padding: 15px; 
+  margin: 20px 0; 
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+  opacity: 0; 
+  transform: translateY(-20px);
+}
+
+.alert-success.show {
+  opacity: 1;
+  transform: translateY(0); 
+}

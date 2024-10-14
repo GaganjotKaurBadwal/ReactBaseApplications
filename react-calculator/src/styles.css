@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 0;
+  background: linear-gradient(to right, #00AAFF, #9304f1, #e50593);
+  font-family: 'Roboto', sans-serif; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.calculator-grid {
+  display: grid;
+  margin-top: 2rem;
+  justify-content: center;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+  gap: 1rem; /* Add spacing between buttons */
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 2px solid #ffffff55;
+  outline: none;
+  background-color: rgba(251, 252, 252, 0.8);
+  color: #333;
+  border-radius: 0.5rem; /* Rounded corners for buttons */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.calculator-grid > button:hover,
+.calculator-grid > button:focus {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.05); 
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 0.5rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 1rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.output .previous-operand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 2.5rem;
+}
+
+button.operator {
+  background-color: #00AAFF;
+  color: white;
+}
+
+button.operator:hover,
+button.operator:focus {
+  background-color: #008bcc;
+}
+
+button.equal {
+  background-color: #e50593;
+  color: white;
+  grid-column: span 2;
+}
+
+button.equal:hover,
+button.equal:focus {
+  background-color: #b00473;
+}
+
+button.clear {
+  background-color: #9304f1;
+  color: white;
+}
+
+button.clear:hover,
+button.clear:focus {
+  background-color: #7403c0;
+}

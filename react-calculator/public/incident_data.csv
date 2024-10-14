@@ -1,0 +1,26 @@
+incident_id,incident_date,severity,category,description,assigned_to,resolved_timestamp
+1,01-01-2023,High,Network,Network connectivity issue affecting multiple users,John Doe,03-01-2023 14:00
+2,02-01-2023,Medium,Hardware,Printer malfunction in the marketing department,Jane Smith,03-01-2023 09:30
+3,03-01-2023,Low,Software,Application crash reported by a single user,Emily Brown,04-01-2023 11:00
+4,04-01-2023,High,Security,Unauthorized access detected in the server logs,Michael Johnson,06-01-2023 16:00
+5,05-01-2023,Medium,Hardware,Laptop screen broken for an executive user,Sarah Davis,07-01-2023 13:00
+6,06-01-2023,Low,Network,Slow internet connection reported in the conference room,David Wilson,08-01-2023 10:00
+7,07-01-2023,High,Software,Critical system error causing application downtime,Anna Johnson,09-01-2023 18:00
+8,08-01-2023,Medium,Hardware,Keyboard malfunction for a desktop computer,Robert Lee,09-01-2023 12:00
+9,09-01-2023,Low,Security,Failed login attempts on a user account,Michael Brown,10-01-2023 15:00
+10,10-01-2023,High,Software,Database corruption issue impacting production environment,James Garcia,12-01-2023 19:00
+11,11-01-2023,Medium,Network,Intermittent network disconnections in the finance department,Emily Harris,13-01-2023 11:00
+12,12-01-2023,Low,Hardware,Monitor flickering issue for a user workstation,Jessica Martinez,13-01-2023 14:00
+13,13-01-2023,High,Security,Data breach incident with potential data loss,William Clark,16-01-2023 21:00
+14,14-01-2023,Medium,Software,Software update causing compatibility issues,Emma Taylor,15-01-2023 10:30
+15,15-01-2023,Low,Hardware,Mouse not working for a user in the sales team,Olivia Martinez,16-01-2023 09:00
+16,16-01-2023,High,Network,Distributed Denial of Service (DDoS) attack on the company website,John Doe,18-01-2023 17:00
+17,17-01-2023,Medium,Security,Security patch installation on server systems,Jane Smith,18-01-2023 16:00
+18,18-01-2023,Low,Software,Email client not syncing properly on mobile devices,David Wilson,19-01-2023 14:00
+19,19-01-2023,High,Hardware,Server hardware failure leading to service outage,Michael Johnson,21-01-2023 20:00
+20,20-01-2023,Medium,Network,Packet loss observed during video conferencing sessions,Anna Johnson,22-01-2023 11:30
+21,21-01-2023,Low,Security,Phishing attempt reported by a user via email,Robert Lee,23-01-2023 15:00
+22,22-01-2023,High,Software,Operating system crash affecting multiple users,Emily Brown,24-01-2023 13:00
+23,23-01-2023,Medium,Hardware,Scanner malfunction in the HR department,Jessica Martinez,24-01-2023 09:30
+24,24-01-2023,Low,Network,Slow file transfer speeds reported in the IT department,William Clark,25-01-2023 11:00
+25,25-01-2023,High,Security,Ransomware attack detected on file servers,James Garcia,27-01-2023 22:00
